@@ -15,7 +15,7 @@ function _0x44a8() {
     "displayHeight",
     "getItem",
     "startDragY",
-    "/assets/bottle.png",
+    "./assets/bottle.png",
     "abs",
     "preload",
     "scene",
