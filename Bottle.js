@@ -1,0 +1,110 @@
+const _0x1548df = _0x3b57;
+(function (_0x226cbc, _0x348801) {
+  const _0x1dafc9 = _0x3b57,
+    _0x33c845 = _0x226cbc();
+  while (!![]) {
+    try {
+      const _0x2e6854 =
+        (parseInt(_0x1dafc9(0x1fd)) / 0x1) *
+          (-parseInt(_0x1dafc9(0x202)) / 0x2) +
+        -parseInt(_0x1dafc9(0x1f0)) / 0x3 +
+        -parseInt(_0x1dafc9(0x1ed)) / 0x4 +
+        parseInt(_0x1dafc9(0x1f1)) / 0x5 +
+        parseInt(_0x1dafc9(0x1f6)) / 0x6 +
+        (-parseInt(_0x1dafc9(0x1e9)) / 0x7) *
+          (-parseInt(_0x1dafc9(0x204)) / 0x8) +
+        (parseInt(_0x1dafc9(0x1e7)) / 0x9) * (parseInt(_0x1dafc9(0x1f7)) / 0xa);
+      if (_0x2e6854 === _0x348801) break;
+      else _0x33c845["push"](_0x33c845["shift"]());
+    } catch (_0xfe0e91) {
+      _0x33c845["push"](_0x33c845["shift"]());
+    }
+  }
+})(_0x3e81, 0xec6c9);
+function _0x3b57(_0x11e6bc, _0x36ddef) {
+  const _0x3e81e7 = _0x3e81();
+  return (
+    (_0x3b57 = function (_0x3b57ce, _0x1d584e) {
+      _0x3b57ce = _0x3b57ce - 0x1e6;
+      let _0x137e75 = _0x3e81e7[_0x3b57ce];
+      return _0x137e75;
+    }),
+    _0x3b57(_0x11e6bc, _0x36ddef)
+  );
+}
+class Bottle extends Phaser[_0x1548df(0x1ee)][_0x1548df(0x1fa)] {
+  constructor(_0xe2b642, _0x1b97f2, _0x358a0e, _0x52768c) {
+    const _0x4efe58 = _0x1548df;
+    super(_0xe2b642, _0x1b97f2, _0x358a0e, _0x52768c),
+      (this[_0x4efe58(0x1e8)] = _0xe2b642),
+      _0xe2b642[_0x4efe58(0x200)][_0x4efe58(0x1fb)](this),
+      _0xe2b642[_0x4efe58(0x1ec)][_0x4efe58(0x200)][_0x4efe58(0x1eb)](this),
+      this[_0x4efe58(0x203)](0.4),
+      this[_0x4efe58(0x1ea)](0.009),
+      this[_0x4efe58(0x1f9)](0xa),
+      this[_0x4efe58(0x1f8)](),
+      (this[_0x4efe58(0x1ef)] = !![]),
+      (this[_0x4efe58(0x1ff)] = ![]),
+      (this[_0x4efe58(0x206)] = ![]);
+  }
+  [_0x1548df(0x201)](_0x1fdc83) {
+    const _0x5939bf = _0x1548df;
+    if (!this["canFlip"]) return;
+    this["canFlip"] = ![];
+    let _0x46eb47 =
+      (this[_0x5939bf(0x1e8)][_0x5939bf(0x1fc)] - _0x1fdc83) / 0x14;
+    if (_0x46eb47 > 0x23) _0x46eb47 = 0x23;
+    this[_0x5939bf(0x1f3)](0x0, -_0x46eb47),
+      this[_0x5939bf(0x1f4)](_0x46eb47 / 0x12c);
+  }
+  [_0x1548df(0x1f2)]() {
+    const _0x38eab6 = _0x1548df;
+    return (
+      Math[_0x38eab6(0x1e6)](this[_0x38eab6(0x205)]) < 0.65 &&
+      Math["abs"](this[_0x38eab6(0x1f5)]["angularVelocity"]) < 0x2 &&
+      Math[_0x38eab6(0x1e6)](this[_0x38eab6(0x1f5)][_0x38eab6(0x1fe)]["y"]) <
+        0x2
+    );
+  }
+}
+function _0x3e81() {
+  const _0x13c9c4 = [
+    "setAngularVelocity",
+    "body",
+    "3692856qYhIvq",
+    "2933990sSMRtu",
+    "setInteractive",
+    "setFrictionStatic",
+    "Sprite",
+    "existing",
+    "startDragY",
+    "7QhMbEz",
+    "velocity",
+    "hasFlippedInAir",
+    "add",
+    "flip",
+    "446742VKWNBB",
+    "setFriction",
+    "16WQUPUs",
+    "angle",
+    "isTouched",
+    "abs",
+    "18IWPOFm",
+    "scene",
+    "5242685QUpnMT",
+    "setFrictionAir",
+    "gameObject",
+    "matter",
+    "2475848FyMegB",
+    "GameObjects",
+    "canFlip",
+    "3143388vmAWAc",
+    "7492820aOqSxs",
+    "isStanding",
+    "setVelocity",
+  ];
+  _0x3e81 = function () {
+    return _0x13c9c4;
+  };
+  return _0x3e81();
+}
