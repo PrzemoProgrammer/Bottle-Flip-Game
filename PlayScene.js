@@ -47,7 +47,7 @@ function _0x3fb0() {
     "Back.in",
     "config",
     "soft",
-    "/assets/bottle.png",
+    "./assets/bottle.png",
     "body",
     "background",
     "./assets/background.png",
