@@ -1,126 +1,122 @@
-const _0x597a5b = _0x1308;
-function _0x1308(_0x5c3199, _0x3a1f27) {
-  const _0x19e318 = _0x19e3();
+const _0x54e321 = _0x1477;
+function _0x1477(_0x39cf79, _0xc11b68) {
+  const _0x189837 = _0x1898();
   return (
-    (_0x1308 = function (_0x130898, _0x1311c1) {
-      _0x130898 = _0x130898 - 0xec;
-      let _0x566058 = _0x19e318[_0x130898];
-      return _0x566058;
+    (_0x1477 = function (_0x14777b, _0x395ab4) {
+      _0x14777b = _0x14777b - 0x157;
+      let _0x5979ea = _0x189837[_0x14777b];
+      return _0x5979ea;
     }),
-    _0x1308(_0x5c3199, _0x3a1f27)
+    _0x1477(_0x39cf79, _0xc11b68)
   );
 }
-(function (_0x77a96d, _0x598e5f) {
-  const _0x53d609 = _0x1308,
-    _0x27bddb = _0x77a96d();
+function _0x1898() {
+  const _0x4c180b = [
+    "162108IHXQvZ",
+    "setAngularVelocity",
+    "2583105IKORIu",
+    "1926AGmTTQ",
+    "317997RthATP",
+    "12538720MxnZtI",
+    "add",
+    "setFriction",
+    "Back.out",
+    "setInteractive",
+    "angularVelocity",
+    "isTouched",
+    "abs",
+    "GameObjects",
+    "startDragY",
+    "createTween",
+    "body",
+    "scene",
+    "setScale",
+    "22771AqMJru",
+    "1143792mAsbHE",
+    "matter",
+    "isStanding",
+    "gameObject",
+    "tweens",
+    "velocity",
+    "canFlip",
+    "940095BUUsnA",
+  ];
+  _0x1898 = function () {
+    return _0x4c180b;
+  };
+  return _0x1898();
+}
+(function (_0x1b9e3a, _0x63c269) {
+  const _0x44322f = _0x1477,
+    _0x5351c3 = _0x1b9e3a();
   while (!![]) {
     try {
-      const _0xb7d3fc =
-        (-parseInt(_0x53d609(0x107)) / 0x1) *
-          (parseInt(_0x53d609(0xf0)) / 0x2) +
-        (parseInt(_0x53d609(0xed)) / 0x3) * (parseInt(_0x53d609(0xfa)) / 0x4) +
-        -parseInt(_0x53d609(0xee)) / 0x5 +
-        parseInt(_0x53d609(0xfd)) / 0x6 +
-        -parseInt(_0x53d609(0x108)) / 0x7 +
-        -parseInt(_0x53d609(0x101)) / 0x8 +
-        (-parseInt(_0x53d609(0xfb)) / 0x9) *
-          (-parseInt(_0x53d609(0x103)) / 0xa);
-      if (_0xb7d3fc === _0x598e5f) break;
-      else _0x27bddb["push"](_0x27bddb["shift"]());
-    } catch (_0x5c4cee) {
-      _0x27bddb["push"](_0x27bddb["shift"]());
+      const _0x5a61cb =
+        parseInt(_0x44322f(0x160)) / 0x1 +
+        parseInt(_0x44322f(0x15c)) / 0x2 +
+        -parseInt(_0x44322f(0x15e)) / 0x3 +
+        parseInt(_0x44322f(0x170)) / 0x4 +
+        parseInt(_0x44322f(0x15b)) / 0x5 +
+        (-parseInt(_0x44322f(0x15f)) / 0x6) *
+          (parseInt(_0x44322f(0x16f)) / 0x7) +
+        parseInt(_0x44322f(0x161)) / 0x8;
+      if (_0x5a61cb === _0x63c269) break;
+      else _0x5351c3["push"](_0x5351c3["shift"]());
+    } catch (_0x1ca2b0) {
+      _0x5351c3["push"](_0x5351c3["shift"]());
     }
   }
-})(_0x19e3, 0x1e502);
-class Bottle extends Phaser[_0x597a5b(0xf7)][_0x597a5b(0xf5)] {
-  constructor(_0x394115, _0x177988, _0x3451fe, _0x1a722b) {
-    const _0x161cc0 = _0x597a5b;
-    super(_0x394115, _0x177988, _0x3451fe, _0x1a722b),
-      (this["scene"] = _0x394115),
-      _0x394115[_0x161cc0(0xfe)][_0x161cc0(0xf8)](this),
-      this[_0x161cc0(0x109)](),
-      (this[_0x161cc0(0xec)] = ![]),
-      (this[_0x161cc0(0x100)] = ![]),
-      (this[_0x161cc0(0xff)] = ![]);
+})(_0x1898, 0x82a46);
+class Bottle extends Phaser[_0x54e321(0x169)]["Sprite"] {
+  constructor(_0x533c87, _0x466f39, _0x171aa9, _0x34738c) {
+    const _0x50c61c = _0x54e321;
+    super(_0x533c87, _0x466f39, _0x171aa9, _0x34738c),
+      (this[_0x50c61c(0x16d)] = _0x533c87),
+      _0x533c87["add"]["existing"](this),
+      this[_0x50c61c(0x165)](),
+      (this[_0x50c61c(0x15a)] = ![]),
+      (this["hasFlippedInAir"] = ![]),
+      (this[_0x50c61c(0x167)] = ![]);
   }
-  [_0x597a5b(0xf4)]() {
-    const _0xf3254a = _0x597a5b;
-    this[_0xf3254a(0x106)][_0xf3254a(0x104)][_0xf3254a(0xfe)]["gameObject"](
-      this
-    ),
-      this["setFriction"](0.4),
-      this[_0xf3254a(0xfc)](0.009),
-      this[_0xf3254a(0x102)](0xa),
-      this[_0xf3254a(0x109)]();
+  ["addBody"]() {
+    const _0x20d0aa = _0x54e321;
+    this[_0x20d0aa(0x16d)][_0x20d0aa(0x171)]["add"][_0x20d0aa(0x157)](this),
+      this[_0x20d0aa(0x163)](0.4),
+      this["setFrictionAir"](0.009),
+      this["setFrictionStatic"](0xa),
+      this["setInteractive"]();
   }
-  ["flip"](_0x7ae1d1) {
-    const _0xc6e3f2 = _0x597a5b;
-    if (!this[_0xc6e3f2(0xec)]) return;
-    this[_0xc6e3f2(0xec)] = ![];
-    let _0x49872f =
-      (this[_0xc6e3f2(0x106)][_0xc6e3f2(0xf2)] - _0x7ae1d1) / 0x14;
-    if (_0x49872f > 0x23) _0x49872f = 0x23;
-    this["setVelocity"](0x0, -_0x49872f),
-      this["setAngularVelocity"](_0x49872f / 0x12c);
+  ["flip"](_0x3a37ee) {
+    const _0x355bb6 = _0x54e321;
+    if (!this[_0x355bb6(0x15a)]) return;
+    this[_0x355bb6(0x15a)] = ![];
+    let _0x9ff6ed =
+      (this[_0x355bb6(0x16d)][_0x355bb6(0x16a)] - _0x3a37ee) / 0x14;
+    if (_0x9ff6ed > 0x23) _0x9ff6ed = 0x23;
+    this["setVelocity"](0x0, -_0x9ff6ed),
+      this[_0x355bb6(0x15d)](_0x9ff6ed / 0x12c);
   }
-  ["isStanding"]() {
-    const _0x24dbda = _0x597a5b;
+  [_0x54e321(0x172)]() {
+    const _0x2eb189 = _0x54e321;
     return (
-      Math[_0x24dbda(0xf6)](this["angle"]) < 0.65 &&
-      Math[_0x24dbda(0xf6)](this["body"][_0x24dbda(0xf3)]) < 0x2 &&
-      Math[_0x24dbda(0xf6)](this[_0x24dbda(0x105)][_0x24dbda(0xf1)]["y"]) < 0x2
+      Math[_0x2eb189(0x168)](this["angle"]) < 0.65 &&
+      Math["abs"](this[_0x2eb189(0x16c)][_0x2eb189(0x166)]) < 0x2 &&
+      Math[_0x2eb189(0x168)](this[_0x2eb189(0x16c)][_0x2eb189(0x159)]["y"]) <
+        0x2
     );
   }
-  [_0x597a5b(0xf9)](_0x325e17) {
-    const _0x480435 = _0x597a5b;
-    this["setScale"](0.1),
-      this[_0x480435(0x106)][_0x480435(0xef)][_0x480435(0xfe)]({
+  [_0x54e321(0x16b)](_0xe34034) {
+    const _0x502925 = _0x54e321;
+    this[_0x502925(0x16e)](0.1),
+      this["scene"][_0x502925(0x158)][_0x502925(0x162)]({
         targets: this,
-        ease: "Back.out",
+        ease: _0x502925(0x164),
         duration: 0x12c,
         scale: 0x1,
         onComplete: () => {
-          const _0x316ad0 = _0x480435;
-          (this[_0x316ad0(0xec)] = !![]), _0x325e17();
+          const _0x31e459 = _0x502925;
+          (this[_0x31e459(0x15a)] = !![]), _0xe34034();
         },
       });
   }
-}
-function _0x19e3() {
-  const _0x269889 = [
-    "createTween",
-    "8OnaMSZ",
-    "474678CAkLSt",
-    "setFrictionAir",
-    "1099134UKsFeO",
-    "add",
-    "isTouched",
-    "hasFlippedInAir",
-    "1657424NClAql",
-    "setFrictionStatic",
-    "70YUYpbG",
-    "matter",
-    "body",
-    "scene",
-    "2IgXyte",
-    "1201102PAvZMf",
-    "setInteractive",
-    "canFlip",
-    "46572PhrwNM",
-    "331705tTuwKZ",
-    "tweens",
-    "14164nmrbWP",
-    "velocity",
-    "startDragY",
-    "angularVelocity",
-    "addBody",
-    "Sprite",
-    "abs",
-    "GameObjects",
-    "existing",
-  ];
-  _0x19e3 = function () {
-    return _0x269889;
-  };
-  return _0x19e3();
 }
